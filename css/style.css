@@ -54,11 +54,13 @@ button, a{
     color: var(--navy-blue);
 }
 
+.nav-item-link:focus{
+    color: var(--ocean);
+}
 
 .nav-item-link:hover,
 .nav-item-link:active,
-.address-item-link:hover,
-.nav-item-link:focus
+.address-item-link:hover
 {
     color: var(--ocean);
 }
@@ -209,5 +211,9 @@ footer{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+
+.logo-footer-span{
     color: var(--cloud);
 }
