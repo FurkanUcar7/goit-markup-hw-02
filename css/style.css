@@ -55,12 +55,13 @@ button, a{
 }
 
 .nav-item-link:focus{
-    color: var(--ocean);
+    color: var(--oceanf);
 }
 
 .nav-item-link:hover,
 .nav-item-link:active,
-.address-item-link:hover
+.address-item-link:hover,
+.address-item-link:focus
 {
     color: var(--ocean);
 }
