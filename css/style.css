@@ -54,9 +54,11 @@ button, a{
     color: var(--navy-blue);
 }
 
+
 .nav-item-link:hover,
 .nav-item-link:active,
-.address-item-link:hover
+.address-item-link:hover,
+.nav-item-link:focus
 {
     color: var(--ocean);
 }
@@ -96,25 +98,25 @@ button, a{
     color: var(--white);
 }
 
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus{
     background-color: var(--ocean);
 }
 
-.features-list{
+.advantage-list{
     background-color: var(--white);
 }
 
-.features-title{
+.advantage-item-title{
     font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--navy-blue);
 }
 
-.features-item-text{
+.advantage-item-text{
     font-family: var(--font-family);
     font-size: 16px;
     line-height: 150%;
@@ -135,6 +137,7 @@ button, a{
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--navy-blue);
 }
 
@@ -173,6 +176,7 @@ button, a{
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--navy-blue);
 }
 
