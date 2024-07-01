@@ -54,14 +54,12 @@ button, a{
     color: var(--navy-blue);
 }
 
-.nav-item-link:focus{
-    color: var(--oceanf);
-}
 
 .nav-item-link:hover,
 .nav-item-link:active,
 .address-item-link:hover,
-.address-item-link:focus
+.address-item-link:focus,
+.nav-item-link:focus
 {
     color: var(--ocean);
 }
